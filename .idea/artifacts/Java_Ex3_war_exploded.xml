@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Java_Ex3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_Ex3_war_exploded</output-path>
+    <root id="archive" name="Java_Ex3_war exploded.war">
+      <element id="javaee-facet-resources" facet="Java_Ex3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Java_Ex3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
